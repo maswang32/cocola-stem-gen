@@ -9,7 +9,7 @@ import lightning as L
 from torch.utils.data import DataLoader, ConcatDataset
 import torch
 
-from . import constants
+from constrastive_model import constants
 from feature_extraction.feature_extraction import CoColaFeatureExtractor
 from data.coco_chorales_contrastive_preprocessed import (
     CocoChoralesContrastivePreprocessed,

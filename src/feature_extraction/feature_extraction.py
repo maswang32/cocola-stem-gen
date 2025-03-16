@@ -7,9 +7,7 @@ import torch
 import torchaudio.transforms as T
 from torch import nn
 import librosa
-
-import cocola.contrastive_model as contrastive_model
-from ..contrastive_model import constants
+from contrastive_model import constants
 
 
 class HPSS(nn.Module):
