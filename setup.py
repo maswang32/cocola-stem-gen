@@ -6,7 +6,8 @@ setup(
     description="Cocola package for feature extraction and evaluation",
     author="Gladia Research Group, Ruben Ciranni    ",
     author_email="contact@gladia.org",
-    packages=find_packages(),
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=[
         "lightning[pytorch-extra]==2.2.1",
         "numpy==1.26.4",
