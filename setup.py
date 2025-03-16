@@ -20,6 +20,7 @@ setup(
         "librosa==0.10.1",
         "soundfile==0.12.1",
     ],
+    py_modules=["contrastive_model", "feature_extraction"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
