@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cocola",
-    version="0.1.0",
+    version="0.1.1",
     description="Cocola package for feature extraction and evaluation",
     author="Gladia Research Group, Ruben Ciranni    ",
     author_email="contact@gladia.org",
